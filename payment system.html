@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment system</title>
+    <style>
+        .gender{
+            background-color: rgb(255, 228, 196);
+        }
+        .submit{
+            background-color: blueviolet;
+        }
+        marquee{
+            color: rgb(103, 240, 18);
+        }
+    </style>
+</head>
+<body bgcolor="sky blue">
+    <form action="">
+        <font color="yellow">
+        <h1 align="center"><u>THE TAJ RESTURANT</u></h1>
+        <h3 align="center">Naya Nagar,New Delhi</h3>
+        </font>
+        <font color="red">
+            <h1 align="center"><u>Payment Form</u></h1>
+            </font>
+            <marquee direction="right"><b>PAY NOW!</b></marquee>
+            <marquee direction="left"><b>PAY NOW! </b></marquee>
+        <hr>
+        <h2>Contact Information</h2>
+        <p>
+            Name:*<input type="name" name="name" id="name" required>
+        </p>
+        <fieldset class="gender">
+                <legend>Gender*</legend>
+                <p>
+                Male<input type="radio" name="gender" id="male" required>
+                Female<input type="radio" name="gender" id="female" required>
+            </p>
+            </fieldset>
+            <p>
+                Address:*<textarea name="address" id="address" cols="160" rows="5" required></textarea>
+            </p>
+            <p>
+                Email:*<input type="email" name="email" id="email" required>
+            </p>
+            <p>
+                Pincode:*<input type="number" name="Pincode" id="Pincode" required>
+            </p>
+            <p>
+                Mobile No.:*<input type="number" name="mobile_number" id="mobile_number">
+            </p>
+            <h2 >Payment Information</h2>
+            <p>
+                Card type:*
+                <select name="card_type" id="card_type" required>
+                    <option value="">-...<u>select a card type</u>...-</option>
+                    <option value="Rupay">Rupay</option>
+                    <option value="master card">Master card</option>
+                    <option value="Visa">Visa</option>
+                </select>
+            </p>
+            <p>
+                Card Number:*<input type="password" name="card_number" id="card_number" required>
+            </p>
+            <p>
+                cvv:*<input type="password" name="cvv" id="cvv" required>
+            </p>
+            <input type="submit" value="Pay Now" class="submit">
+    </form>
+    <font color="red">
+    <h4><u><i>NOTE</i></u>:</h4>
+        marked (*) item must be filled in their respective box.
+        </font>
+        <p >
+            <b><i><u>Cashier</u>:Rahul Verma</i></b><br>
+            <a href="file:///C:/Users/prashant/Documents/payment%20status.html" target="_blank">Payment Status </a>
+        </p>
+        <p align="right">
+            <b><i><u>Time</u>:01:25</i></b>
+        </p>
+        <p align="right">
+            <b><i><u>Date</u>:10/07/2023</i></b>
+        </p>
+        <p align="center">
+            <font color="green">
+            <b><i>Thanks for Your Wonderfull Choice</i></b><br>
+            <b><i>Have a Nice Day</i></b>
+            </font>
+        </p>
+        <hr>
+</body>
+</html>
