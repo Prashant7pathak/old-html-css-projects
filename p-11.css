@@ -1,0 +1,20 @@
+h1{
+    color: darkred;
+}
+
+a:hover{
+    color: blue;
+}
+
+button:hover{
+    background-color: aqua; cursor: pointer;
+}
+
+b:hover{
+    color: brown;
+}
+
+h1{
+    text-align: center; 
+}
+
